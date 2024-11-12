@@ -1,0 +1,7 @@
+@inproceedings{spencer2024third,
+  title={The third monocular depth estimation challenge},
+  author={Spencer, Jaime and Tosi, Fabio and Poggi, Matteo and Arora, Ripudaman Singh and Russell, Chris and Hadfield, Simon and Bowden, Richard and Zhou, GuangYuan and Li, ZhengXin and Rao, Qiang and others},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1--14},
+  year={2024}
+}

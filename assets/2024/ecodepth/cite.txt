@@ -1,0 +1,8 @@
+@InProceedings{Patni_2024_CVPR,
+  author    = {Patni, Suraj and Agarwal, Aradhye and Arora, Chetan},
+  title     = {ECoDepth: Effective Conditioning of Diffusion Models for Monocular Depth Estimation},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month     = {June},
+  year      = {2024},
+  pages     = {28285-28295}
+}
