@@ -9,70 +9,69 @@ body {
 	padding: 1em;
 }
 
+/* Header layout: image left, description right */
+#header {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+/* Left column (photo + CV links) */
+#left_col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cv_links {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    text-align: center;   /* <-- add this */
+    width: 100%;          /* ensures the centering works consistently */
+}
+
+/* Auto-scale photo to match height of text */
 #profile_pic {
-	float: right;
-	width: 130px;
+    width: 220px;
+    height: auto;
+    max-height: 350px;     /* prevents it from becoming huge */
+    object-fit: cover;
+    border-radius: 10%;
+	margin-top: 65px;
 }
 
-h1, h2 {
-	color: #000;
-	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Cambria, Georgia, serif;
-	font-weight: normal;
+/* Resume / CV links */
+#cv_links {
+    margin-top: 12px;
+    font-size: 0.95rem;
 }
 
-h1 {
-	font-size: 3rem;
-	margin-top: 2.0rem;
-	margin-bottom: 1.0rem;
-	line-height: 1.0;
+#cv_links a {
+    color: #0070f3;
+    text-decoration: none;
 }
 
-h2 {
-	font-size: 2rem;
-	margin-top: 3rem;
-	margin-bottom: 0.5rem;
+#cv_links a:hover {
+    text-decoration: underline;
 }
 
-h3 {
-	font-weight: normal;
+/* Right column text */
+#right_col h1, #right_col h3, #right_col p {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 12px;
 }
 
-th {
-	padding: 0 1rem;
-	text-align: right;
-	font-weight: 600;
-}
+/* Responsive behavior: stack on small screens */
+@media (max-width: 700px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-li {
-	margin: 1rem 0;
+    #right_col h1, #right_col h3, #right_col p {
+        text-align: center;
+    }
 }
-
-a {
-	color: green;
-	text-decoration: none;
-}
-
-a:active, a:focus, a:hover {
-	border-bottom: solid 2px;
-}
-
-a:visited {
-	color: green;
-}
-
-u {
-	text-decoration: none;
-	border-bottom: 1px solid black;
-}
-
-b {
-	font-weight: 600;
-}
-
-footer {
-	margin-top: 3rem;
-	color: #888;
-	font-size: 0.9rem;
-	text-align: center;
-}
-
