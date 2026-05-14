@@ -1,0 +1,9 @@
+@misc{agarwal2026learningactrefuseguarding,
+      title={Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use}, 
+      author={Aradhye Agarwal and Gurdit Siyan and Yash Pandya and Joykirat Singh and Akshay Nambi and Ahmed Awadallah},
+      year={2026},
+      eprint={2603.03205},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.03205}, 
+}
